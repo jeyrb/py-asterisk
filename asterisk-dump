@@ -47,7 +47,7 @@ def main(argv):
         try:
             main2()
 
-        except Asterisk.Manager.GoneAwayError, e:
+        except Asterisk.Manager.GoneAwayError as e:
             print '#', str(e)
 
 

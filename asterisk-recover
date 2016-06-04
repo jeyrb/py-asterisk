@@ -44,7 +44,7 @@ def main(argv):
 
         try:
             chan_nr = input('Channel number [default: 1]: ') - 1
-        except SyntaxError, e:
+        except SyntaxError as e:
             print 'Using channel #1.'
             chan_nr = 1
 
